@@ -1,0 +1,49 @@
+.idea/*.*
+.idea/*
+.slcache/*.*
+.idea/AlDiaWeb-grailsPlugins.iml
+
+target/*
+production/*
+test/*
+
+# web application files
+/web-app/WEB-INF/classes
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+
+# "temporary" build files
+/target
+/target/work
+
+.DS_Store
+.idea/dataSources.xml
+.idea/AlDiaWeb-grailsPlugins.iml
+target/stacktrace.log
+target/work/stubs/la/aldia/rest/VisitasService.java
+log/log.json
+log/aldia.log
+alDia-app-grailsPlugins.iml
+alDia-app.iml
+.project
